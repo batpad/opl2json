@@ -7,7 +7,7 @@ const join = require('path').join;
 const inputFile = argv._[0];
 const outFile = inputFile.replace('.opl', '.json');
 
-const txt = fs.readFileSync(join(__dirname, inputFile), 'utf-8');
+const txt = fs.readFileSync(inputFile, 'utf-8');
 
 const lines = txt.split('\n');
 
