@@ -1,6 +1,6 @@
 {
   "name": "opl2json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple custom opl 2 json converter",
   "main": "opl2json.js",
   "scripts": {
